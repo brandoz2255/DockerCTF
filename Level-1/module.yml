@@ -1,0 +1,4 @@
+name: Level-1
+challenges:
+  - id: flag-1
+    name: "Basic Command"

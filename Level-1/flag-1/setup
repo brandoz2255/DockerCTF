@@ -1,0 +1,4 @@
+#!/bin/bash
+
+# Start a Docker container with the flag in the name
+docker run --name flag{dockerisawesome123} -d nginx

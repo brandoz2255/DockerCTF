@@ -1,0 +1,31 @@
+id: docker-basics
+name: Docker Fundamentals
+
+award:
+  image: images/docker.png  # This replaces the emoji with a PNG image.
+
+description: |
+  Welcome to the Docker Basics Dojo! In this dojo, you will learn how to use Docker through hands-on challenges.
+  Start by learning the basic commands and then progress to more advanced Docker operations.
+  Make sure to take your time and dig deep into the concepts of containerization.
+
+  Good luck, and remember to use the Docker documentation if you get stuck!
+
+  Need help? Ask in the [Discord channel](https://discord.com/channels/750635557666816031/1193136640701513778)!
+
+type: topic
+
+modules:
+  - id: "Level-1"
+    name: Basic Docker Commands
+    description: Learn how to interact with Docker containers using fundamental commands.
+    challenges:
+      - id: flag-1
+        name: Flag 1: Basic Docker Commands
+        description: |
+          **Challenge:** List all running Docker containers.
+          
+          **Hint:** This flag is hidden in the names of the containers.
+          
+          **Objective:** Run the basic `docker ps` command to find the flag in container names or labels.
+
