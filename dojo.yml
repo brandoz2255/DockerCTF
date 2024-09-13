@@ -16,12 +16,12 @@ description: |
 type: topic
 
 modules:
-  - id: "Level-1"
+  - id: "level-1"  # Changed to all lowercase and removed invalid characters
     name: Basic Docker Commands
     description: Learn how to interact with Docker containers using fundamental commands.
     challenges:
-      - id: flag-1
-        name: "Flag 1- Basic Docker Commands"
+      - id: "flag-1"  # Lowercase and simple id
+        name: "Flag 1 - Basic Docker Commands"  # Wrapped the name in quotes to avoid the colon issue
         description: |
           **Challenge:** List all running Docker containers.
           
